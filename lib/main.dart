@@ -1,4 +1,5 @@
 import 'package:first_app/buttons.dart';
+import 'package:first_app/input_widget.dart';
 // import 'package:first_app/grid.dart';
 // import 'package:first_app/row_column.dart';
 // import 'package:first_app/to_do.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ButtonsWidget(),
+      home: const InputWidget(),
     );
   }
 }
